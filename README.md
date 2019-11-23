@@ -30,9 +30,9 @@ Usage
 * `--blend-alpha`: Interpolation factor to overlay the input with CAM 
 * `--save-path`: Path to save outputs
 
-#### Script
+### Example Script
 
-`python cam.py --image imgs/image1.jpg --topk 3 --imsize 256`
+`python cam.py --image imgs/input/img1.jpg --topk 3 --imsize 256 --network resnet50`
 
 Results
 --
