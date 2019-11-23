@@ -1,12 +1,12 @@
 Class Activation Map
 ==
-**This is Pytorch Implementation to generate the Class Activation Map using Resnet34**
+**Unofficial Pytorch Implementation of 'Learning Deep Features for Discriminative Localization'**
 
 **Reference**: [Learning Deep Features for Discriminative Localization, CVPR2016](https://arxiv.org/abs/1512.04150)
 
 **Contact**: `Minseong Kim` (tyui592@gmail.com)
 
-I used the pre-trained [Networks](https://pytorch.org/docs/stable/torchvision/models.html#torchvision-models) from `torchvision.models`.
+I used the [Networks](https://pytorch.org/docs/stable/torchvision/models.html#torchvision-models) that trained ImageNet data from `torchvision.models`.
 
 
 Requirements
@@ -22,7 +22,7 @@ Usage
 
 ### Arguments
 * `--gpu-no`: Number of gpu device (-1: cpu, 0~n: gpu)
-* `--network`: Network for backbone (Possible networks: resnet50, resnext50_32x4d, wide_resnet50_2, googlenet, densenet161, inception_v3, shufflenet_v2_x1_0, mobilenet_v2, mnasnet1_0)
+* `--network`: Network for backbone (Possible networks: *resnet50, resnext50_32x4d, wide_resnet50_2, googlenet, densenet161, inception_v3, shufflenet_v2_x1_0, mobilenet_v2, mnasnet1_0*)
 * `--image`: Input image path
 * `--topk`: Create k Class Activation Maps (CAMs) with the highest probability
 * `--imsize`: Size to resize image (maintaining aspect ratio)
