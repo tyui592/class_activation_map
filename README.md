@@ -4,12 +4,15 @@ Class Activation Map
 
 **Reference**: [Learning Deep Features for Discriminative Localization, CVPR2016](https://arxiv.org/abs/1512.04150)
 
-**Contact**: Minseong Kim (tyui592@gmail.com)
+**Contact**: `Minseong Kim` (tyui592@gmail.com)
+
+I used the pre-trained [Resnet34](https://pytorch.org/docs/stable/torchvision/models.html#torchvision.models.resnet34) from `torchvision.models`.
 
 
 Requirements
 --
-* Pytorch (version: 1.2.0)
+* torch (version: 1.2.0)
+* torchvision (version: 0.4.0)
 * Pillow (version: 6.1.0)
 * matplotlib (version: 3.1.1)
 * numpy (version: 1.16.5)
