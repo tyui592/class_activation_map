@@ -37,8 +37,5 @@ Usage
 Results
 --
 
-![figure1](https://github.com/tyui592/class_activation_map/blob/master/imgs/cam1.png)
-![figure2](https://github.com/tyui592/class_activation_map/blob/master/imgs/cam2.png)
-![figure3](https://github.com/tyui592/class_activation_map/blob/master/imgs/cam3.png)
-![figure4](https://github.com/tyui592/class_activation_map/blob/master/imgs/cam4.png)
+![reulsts](imgs/results.png)
 
