@@ -4,7 +4,6 @@ Class Activation Map
 
 **Reference**: [Learning Deep Features for Discriminative Localization, CVPR2016](https://arxiv.org/abs/1512.04150)
 
-**Contact**: `Minseong Kim` (tyui592@gmail.com)
 
 I used the [Networks](https://pytorch.org/docs/stable/torchvision/models.html#torchvision-models) that trained ImageNet data from `torchvision.models`.
 
